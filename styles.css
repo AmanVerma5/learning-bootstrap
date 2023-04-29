@@ -7,7 +7,7 @@
 }
 .images img{
     width: auto;
-    height: 200px;;
+    height: 200px;
 }
 .images p{
     text-align: center;
@@ -51,4 +51,15 @@
 .contain{
     width: 80%;
     margin: 30px auto;
+}
+.another-grid{
+    display:grid;
+    grid-template-columns: auto auto;
+    width:80%;
+    margin:30px auto;
+    gap:10px;
+}
+.another-grid img{
+    width:auto;
+    height:500px !important;
 }
